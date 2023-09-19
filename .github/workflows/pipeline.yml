@@ -13,7 +13,7 @@ jobs:
 
     steps:
     #clonacion de repositorio en workspace
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     #configuracion de JDK 11
     - name: Set up JDK 11
